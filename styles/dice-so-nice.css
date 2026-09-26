@@ -1,0 +1,84 @@
+/* styles/dice-so-nice.css */
+
+#dice-config,
+#dice-config .window-content,
+.dice-so-nice {
+  color: #f8fafc !important;
+}
+
+#dice-config label,
+#dice-config span,
+#dice-config p,
+.dice-so-nice label,
+.dice-so-nice span {
+  color: #f8fafc;
+}
+
+.dice-so-nice legend {
+  color: #38bdf8 !important;
+  font-weight: 600;
+}
+
+.dice-so-nice select {
+  background-color: #1a1f30 !important;
+  color: #ffffff !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  border-radius: 4px;
+}
+
+.dice-so-nice select optgroup {
+  background-color: #121624 !important;
+  color: #94a3b8 !important;
+}
+
+.dice-so-nice select option {
+  background-color: #1a1f30 !important;
+  color: #ffffff !important;
+}
+
+.dice-so-nice input[type="number"],
+.dice-so-nice input[type="text"] {
+  background-color: #1a1f30 !important;
+  color: #ffffff !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  border-radius: 4px;
+}
+
+.dice-so-nice input:disabled,
+.dice-so-nice select:disabled {
+  opacity: 0.45 !important;
+  cursor: not-allowed;
+}
+
+.dice-so-nice input[type=range]:disabled,
+.dice-so-nice input[type=color]:disabled {
+  opacity: 0.3 !important;
+}
+
+#dice-config .window-content {
+  overflow-y: hidden;
+}
+
+.dice-so-nice .dsn-settings-container {
+  height: 368px;
+  overflow-y: auto;
+}
+
+.dice-so-nice .buttons-save {
+  position: sticky;
+  margin-top: 8px;
+}
+
+.dice-so-nice .form-group select {
+  flex: 1;
+}
+
+.dice-so-nice .setting-timeBeforeHide input {
+  flex: 1; 
+  text-align: right;
+}
+
+#dice-configuration-canvas {
+  width: 500px;
+  height: 245px;
+}

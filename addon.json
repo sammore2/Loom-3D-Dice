@@ -1,0 +1,118 @@
+{
+  "name": "loom-3d-dice",
+  "title": "Loom 3D Dice",
+  "version": "0.0.1",
+  "engine": "loom",
+  "type": "addon",
+  "engineVersion": ">=0.1.0",
+  "author": "sammore2",
+  "repository": "https://github.com/sammore2/Loom-3D-Dice",
+  "license": "CC-BY-4.0",
+  "description": "Native third-party 3D dice addon for LoomVTT, adapted from Dice So Nice! v3.0.0-final.",
+  "active": true,
+  "requiresApiKey": false,
+  "client": "client.js",
+  "scripts": [
+    "dsn/libs/cannon.min.js"
+  ],
+  "styles": [
+    "styles/dice-so-nice.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "it",
+      "name": "Italian",
+      "path": "lang/it.json"
+    },
+    {
+      "lang": "fr",
+      "name": "Français",
+      "path": "lang/fr.json"
+    },
+    {
+      "lang": "es",
+      "name": "Spanish",
+      "path": "lang/es.json"
+    },
+    {
+      "lang": "ko",
+      "name": "Korean",
+      "path": "lang/ko.json"
+    },
+    {
+      "lang": "pt-BR",
+      "name": "Português (Brasil)",
+      "path": "lang/pt-BR.json"
+    },
+    {
+      "lang": "cn",
+      "name": "Chinese",
+      "path": "lang/cn.json"
+    }
+  ],
+  "settings": [
+    {
+      "key": "enabled",
+      "label": "Enable 3D Dice",
+      "type": "boolean",
+      "default": true,
+      "scope": "client"
+    },
+    {
+      "key": "maxDiceNumber",
+      "label": "Max Number of Dice",
+      "type": "number",
+      "default": 20,
+      "scope": "world"
+    },
+    {
+      "key": "disabledDuringCombat",
+      "label": "Disabled during combat",
+      "type": "boolean",
+      "default": false,
+      "scope": "world"
+    },
+    {
+      "key": "immediatelyDisplayChatMessages",
+      "label": "Display chat message immediately",
+      "type": "boolean",
+      "default": false,
+      "scope": "world"
+    },
+    {
+      "key": "globalAnimationSpeed",
+      "label": "Global animation speed",
+      "type": "string",
+      "default": "1",
+      "scope": "world",
+      "choices": {
+        "0": "Player speed",
+        "1": "Normal speed",
+        "2": "2x speed",
+        "3": "3x speed"
+      }
+    },
+    {
+      "key": "enabledSimultaneousRolls",
+      "label": "Merge simultaneous rolls",
+      "type": "boolean",
+      "default": true,
+      "scope": "world"
+    },
+    {
+      "key": "diceCanBeFlipped",
+      "label": "Dice can be flipped",
+      "type": "boolean",
+      "default": true,
+      "scope": "world"
+    }
+  ],
+  "dependencies": [],
+  "conflicts": [],
+  "systems": []
+}
