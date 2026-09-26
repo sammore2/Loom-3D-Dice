@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "engine": "loom",
   "type": "addon",
-  "engineVersion": ">=0.1.0",
+  "engineVersion": ">=0.0.0",
   "author": "sammore2",
   "repository": "https://github.com/sammore2/Loom-3D-Dice",
   "license": "CC-BY-4.0",
