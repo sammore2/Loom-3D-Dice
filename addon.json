@@ -114,5 +114,8 @@
   ],
   "dependencies": [],
   "conflicts": [],
-  "systems": []
+  "systems": [],
+  "bugs": "https://github.com/sammore2/Loom-3D-Dice/issues",
+  "manifest": "https://github.com/sammore2/Loom-3D-Dice/releases/latest/download/addon.json",
+  "download": "https://github.com/sammore2/Loom-3D-Dice/releases/latest/download/loom-3d-dice.zip"
 }
