@@ -1,7 +1,7 @@
 # Loom 3D Dice
 
-[![Engine: LoomVTT](https://img.shields.io/badge/LoomVTT-addon-blue.svg)](https://github.com/sammore2/dicesonice)
-[![Version](https://img.shields.io/badge/version-0.0.1-brightgreen.svg)](addon.json)
+[![Engine: LoomVTT](https://img.shields.io/badge/LoomVTT-addon-blue.svg)](https://github.com/sammore2/Loom-3D-Dice)
+[![Version](https://img.shields.io/badge/version-0.0.2-brightgreen.svg)](addon.json)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 **Loom 3D Dice** is a native 3D dice simulation addon for **LoomVTT**, featuring realistic physics, rich customization, sound effects, textures, materials, and themes.
