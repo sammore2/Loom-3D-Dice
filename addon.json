@@ -1,7 +1,7 @@
 {
   "name": "loom-3d-dice",
   "title": "Loom 3D Dice",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engine": "loom",
   "type": "addon",
   "engineVersion": ">=0.0.0",
