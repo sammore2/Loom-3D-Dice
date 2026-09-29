@@ -55,12 +55,12 @@ export class DiceFactory {
 		diceobj = new DicePreset('dc','d2');
 		diceobj.name = 'Coin';
 		diceobj.setLabels([
-			'/marketplace/addons/dice-so-nice/textures/coin/tail.webp',
-			'/marketplace/addons/dice-so-nice/textures/coin/heads.webp'
+			'/marketplace/addons/loom-3d-dice/textures/coin/tail.webp',
+			'/marketplace/addons/loom-3d-dice/textures/coin/heads.webp'
 		]);
 		diceobj.setBumpMaps([
-			'/marketplace/addons/dice-so-nice/textures/coin/tail_bump.webp',
-			'/marketplace/addons/dice-so-nice/textures/coin/heads_bump.webp'
+			'/marketplace/addons/loom-3d-dice/textures/coin/tail_bump.webp',
+			'/marketplace/addons/loom-3d-dice/textures/coin/heads_bump.webp'
 		]);
 		diceobj.setValues(0,1);
 		diceobj.setValueMap({"0":1,"1":2});
@@ -161,20 +161,20 @@ export class DiceFactory {
 		diceobj = new DicePreset('d6');
 		diceobj.name = 'd6';
 		diceobj.setLabels([
-			'/marketplace/addons/dice-so-nice/textures/dot/d6-1.webp',
-			'/marketplace/addons/dice-so-nice/textures/dot/d6-2.webp',
-			'/marketplace/addons/dice-so-nice/textures/dot/d6-3.webp',
-			'/marketplace/addons/dice-so-nice/textures/dot/d6-4.webp',
-			'/marketplace/addons/dice-so-nice/textures/dot/d6-5.webp',
-			'/marketplace/addons/dice-so-nice/textures/dot/d6-6.webp',
+			'/marketplace/addons/loom-3d-dice/textures/dot/d6-1.webp',
+			'/marketplace/addons/loom-3d-dice/textures/dot/d6-2.webp',
+			'/marketplace/addons/loom-3d-dice/textures/dot/d6-3.webp',
+			'/marketplace/addons/loom-3d-dice/textures/dot/d6-4.webp',
+			'/marketplace/addons/loom-3d-dice/textures/dot/d6-5.webp',
+			'/marketplace/addons/loom-3d-dice/textures/dot/d6-6.webp',
 		]);
 		diceobj.setBumpMaps([
-			'/marketplace/addons/dice-so-nice/textures/dot/d6-1-b.webp',
-			'/marketplace/addons/dice-so-nice/textures/dot/d6-2-b.webp',
-			'/marketplace/addons/dice-so-nice/textures/dot/d6-3-b.webp',
-			'/marketplace/addons/dice-so-nice/textures/dot/d6-4-b.webp',
-			'/marketplace/addons/dice-so-nice/textures/dot/d6-5-b.webp',
-			'/marketplace/addons/dice-so-nice/textures/dot/d6-6-b.webp',
+			'/marketplace/addons/loom-3d-dice/textures/dot/d6-1-b.webp',
+			'/marketplace/addons/loom-3d-dice/textures/dot/d6-2-b.webp',
+			'/marketplace/addons/loom-3d-dice/textures/dot/d6-3-b.webp',
+			'/marketplace/addons/loom-3d-dice/textures/dot/d6-4-b.webp',
+			'/marketplace/addons/loom-3d-dice/textures/dot/d6-5-b.webp',
+			'/marketplace/addons/loom-3d-dice/textures/dot/d6-6-b.webp',
 		]);
 		diceobj.setValues(1,6);
 		diceobj.scale = 0.9;
@@ -184,20 +184,20 @@ export class DiceFactory {
 		diceobj = new DicePreset('d6');
 		diceobj.name = 'd6';
 		diceobj.setLabels([
-			'/marketplace/addons/dice-so-nice/textures/dot/d6-1-black.webp',
-			'/marketplace/addons/dice-so-nice/textures/dot/d6-2-black.webp',
-			'/marketplace/addons/dice-so-nice/textures/dot/d6-3-black.webp',
-			'/marketplace/addons/dice-so-nice/textures/dot/d6-4-black.webp',
-			'/marketplace/addons/dice-so-nice/textures/dot/d6-5-black.webp',
-			'/marketplace/addons/dice-so-nice/textures/dot/d6-6-black.webp',
+			'/marketplace/addons/loom-3d-dice/textures/dot/d6-1-black.webp',
+			'/marketplace/addons/loom-3d-dice/textures/dot/d6-2-black.webp',
+			'/marketplace/addons/loom-3d-dice/textures/dot/d6-3-black.webp',
+			'/marketplace/addons/loom-3d-dice/textures/dot/d6-4-black.webp',
+			'/marketplace/addons/loom-3d-dice/textures/dot/d6-5-black.webp',
+			'/marketplace/addons/loom-3d-dice/textures/dot/d6-6-black.webp',
 		]);
 		diceobj.setBumpMaps([
-			'/marketplace/addons/dice-so-nice/textures/dot/d6-1-b.webp',
-			'/marketplace/addons/dice-so-nice/textures/dot/d6-2-b.webp',
-			'/marketplace/addons/dice-so-nice/textures/dot/d6-3-b.webp',
-			'/marketplace/addons/dice-so-nice/textures/dot/d6-4-b.webp',
-			'/marketplace/addons/dice-so-nice/textures/dot/d6-5-b.webp',
-			'/marketplace/addons/dice-so-nice/textures/dot/d6-6-b.webp',
+			'/marketplace/addons/loom-3d-dice/textures/dot/d6-1-b.webp',
+			'/marketplace/addons/loom-3d-dice/textures/dot/d6-2-b.webp',
+			'/marketplace/addons/loom-3d-dice/textures/dot/d6-3-b.webp',
+			'/marketplace/addons/loom-3d-dice/textures/dot/d6-4-b.webp',
+			'/marketplace/addons/loom-3d-dice/textures/dot/d6-5-b.webp',
+			'/marketplace/addons/loom-3d-dice/textures/dot/d6-6-b.webp',
 		]);
 		diceobj.setValues(1,6);
 		diceobj.scale = 0.9;

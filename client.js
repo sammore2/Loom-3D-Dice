@@ -11,8 +11,8 @@ import { DiceBox } from './dsn/DiceBox.js';
 import { DiceColors, TEXTURELIST, COLORSETS } from './dsn/DiceColors.js';
 import { getColorsetGroups, getSystemList, isCustomColorset } from './dsn/appearance.js';
 
-const MODULE = 'dice-so-nice';
-export const BASE = '/marketplace/addons/dice-so-nice';
+const MODULE = 'loom-3d-dice';
+export const BASE = '/marketplace/addons/loom-3d-dice';
 
 export const DEFAULT_OPTIONS = {
   hideAfterRoll: true,
@@ -350,7 +350,7 @@ export class Dice3D {
                 this.box._stopLoop();
                 this.box.rolling = false;
                 this.box.clearAll();
-              } catch {}
+              } catch { }
               finish(true);
             }, 20000);
             try {

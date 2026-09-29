@@ -23,190 +23,190 @@ export const TEXTURELIST = {
 	'cloudy': {
 		name: 'DICESONICE.TextureCloudsTransparent',
 		composite: 'destination-in',
-		source: '/marketplace/addons/dice-so-nice/textures/cloudy.webp',
-		bump: '/marketplace/addons/dice-so-nice/textures/cloudy.alt.webp'
+		source: '/marketplace/addons/loom-3d-dice/textures/cloudy.webp',
+		bump: '/marketplace/addons/loom-3d-dice/textures/cloudy.alt.webp'
 	},
 	'cloudy_2': {
 		name: 'DICESONICE.TextureClouds',
 		composite: 'multiply',
-		source: '/marketplace/addons/dice-so-nice/textures/cloudy.alt.webp',
-		bump: '/marketplace/addons/dice-so-nice/textures/cloudy.alt.webp'
+		source: '/marketplace/addons/loom-3d-dice/textures/cloudy.alt.webp',
+		bump: '/marketplace/addons/loom-3d-dice/textures/cloudy.alt.webp'
 	},
 	'fire': {
 		name: 'DICESONICE.TextureFire',
 		composite: 'multiply',
-		source: '/marketplace/addons/dice-so-nice/textures/fire.webp',
-		bump: '/marketplace/addons/dice-so-nice/textures/fire.webp'
+		source: '/marketplace/addons/loom-3d-dice/textures/fire.webp',
+		bump: '/marketplace/addons/loom-3d-dice/textures/fire.webp'
 	},
 	'marble': {
 		name: 'DICESONICE.TextureMarble',
 		composite: 'multiply',
-		source: '/marketplace/addons/dice-so-nice/textures/marble.webp',
+		source: '/marketplace/addons/loom-3d-dice/textures/marble.webp',
 		bump: '',
 		material: "glass"
 	},
 	'water': {
 		name: 'DICESONICE.TextureWater',
 		composite: 'destination-in',
-		source: '/marketplace/addons/dice-so-nice/textures/water.webp',
-		bump: '/marketplace/addons/dice-so-nice/textures/water.webp',
+		source: '/marketplace/addons/loom-3d-dice/textures/water.webp',
+		bump: '/marketplace/addons/loom-3d-dice/textures/water.webp',
 		material: 'glass',
 	},
 	'ice': {
 		name: 'DICESONICE.TextureIce',
 		composite: 'destination-in',
-		source: '/marketplace/addons/dice-so-nice/textures/ice.webp',
-		bump: '/marketplace/addons/dice-so-nice/textures/ice.webp',
+		source: '/marketplace/addons/loom-3d-dice/textures/ice.webp',
+		bump: '/marketplace/addons/loom-3d-dice/textures/ice.webp',
 		material: 'glass'
 	},
 	'paper': {
 		name: 'DICESONICE.TexturePaper',
 		composite: 'multiply',
-		source: '/marketplace/addons/dice-so-nice/textures/paper.webp',
-		bump: '/marketplace/addons/dice-so-nice/textures/paper-bump.webp',
+		source: '/marketplace/addons/loom-3d-dice/textures/paper.webp',
+		bump: '/marketplace/addons/loom-3d-dice/textures/paper-bump.webp',
 		material: 'wood'
 	},
 	'speckles': {
 		name: 'DICESONICE.TextureSpeckles',
 		composite: 'multiply',
-		source: '/marketplace/addons/dice-so-nice/textures/speckles.webp',
-		bump: '/marketplace/addons/dice-so-nice/textures/speckles.webp'
+		source: '/marketplace/addons/loom-3d-dice/textures/speckles.webp',
+		bump: '/marketplace/addons/loom-3d-dice/textures/speckles.webp'
 	},
 	'glitter': {
 		name: 'DICESONICE.TextureGlitter',
 		composite: 'multiply',
-		source: '/marketplace/addons/dice-so-nice/textures/glitter.webp',
-		bump: '/marketplace/addons/dice-so-nice/textures/glitter-bump.webp'
+		source: '/marketplace/addons/loom-3d-dice/textures/glitter.webp',
+		bump: '/marketplace/addons/loom-3d-dice/textures/glitter-bump.webp'
 	},
 	'glitter_2': {
 		name: 'DICESONICE.TextureGlitterTransparent',
 		composite: 'destination-in',
-		source: '/marketplace/addons/dice-so-nice/textures/glitter-alpha.webp',
+		source: '/marketplace/addons/loom-3d-dice/textures/glitter-alpha.webp',
 		bump: ''
 	},
 	'stars': {
 		name: 'DICESONICE.TextureStars',
 		composite: 'multiply',
-		source: '/marketplace/addons/dice-so-nice/textures/stars.webp',
-		bump: '/marketplace/addons/dice-so-nice/textures/stars.webp'
+		source: '/marketplace/addons/loom-3d-dice/textures/stars.webp',
+		bump: '/marketplace/addons/loom-3d-dice/textures/stars.webp'
 	},
 	'stainedglass': {
 		name: 'DICESONICE.TextureStainedGlass',
 		composite: 'multiply',
-		source: '/marketplace/addons/dice-so-nice/textures/stainedglass.webp',
-		bump: '/marketplace/addons/dice-so-nice/textures/stainedglass-bump.webp',
+		source: '/marketplace/addons/loom-3d-dice/textures/stainedglass.webp',
+		bump: '/marketplace/addons/loom-3d-dice/textures/stainedglass-bump.webp',
 		material: 'glass'
 	},
 	'skulls': {
 		name: 'DICESONICE.TextureSkulls',
 		composite: 'multiply',
-		source: '/marketplace/addons/dice-so-nice/textures/skulls.webp',
-		bump: '/marketplace/addons/dice-so-nice/textures/skulls.webp'
+		source: '/marketplace/addons/loom-3d-dice/textures/skulls.webp',
+		bump: '/marketplace/addons/loom-3d-dice/textures/skulls.webp'
 	},
 	'leopard': {
 		name: 'DICESONICE.TextureLeopard',
 		composite: 'multiply',
-		source: '/marketplace/addons/dice-so-nice/textures/leopard.webp',
-		bump: '/marketplace/addons/dice-so-nice/textures/leopard.webp',
+		source: '/marketplace/addons/loom-3d-dice/textures/leopard.webp',
+		bump: '/marketplace/addons/loom-3d-dice/textures/leopard.webp',
 		material: 'wood'
 	},
 	'tiger': {
 		name: 'DICESONICE.TextureTiger',
 		composite: 'multiply',
-		source: '/marketplace/addons/dice-so-nice/textures/tiger.webp',
-		bump: '/marketplace/addons/dice-so-nice/textures/tiger.webp',
+		source: '/marketplace/addons/loom-3d-dice/textures/tiger.webp',
+		bump: '/marketplace/addons/loom-3d-dice/textures/tiger.webp',
 		material: 'wood'
 	},
 	'cheetah': {
 		name: 'DICESONICE.TextureCheetah',
 		composite: 'multiply',
-		source: '/marketplace/addons/dice-so-nice/textures/cheetah.webp',
-		bump: '/marketplace/addons/dice-so-nice/textures/cheetah.webp',
+		source: '/marketplace/addons/loom-3d-dice/textures/cheetah.webp',
+		bump: '/marketplace/addons/loom-3d-dice/textures/cheetah.webp',
 		material: 'wood'
 	},
 	'dragon': {
 		name: 'Dragon',
 		composite: 'multiply',
-		source: '/marketplace/addons/dice-so-nice/textures/dragon.webp',
-		bump: '/marketplace/addons/dice-so-nice/textures/dragon-bump.webp'
+		source: '/marketplace/addons/loom-3d-dice/textures/dragon.webp',
+		bump: '/marketplace/addons/loom-3d-dice/textures/dragon-bump.webp'
 	},
 	'lizard': {
 		name: 'Lizard',
 		composite: 'multiply',
-		source: '/marketplace/addons/dice-so-nice/textures/lizard.webp',
-		bump: '/marketplace/addons/dice-so-nice/textures/lizard-bump.webp'
+		source: '/marketplace/addons/loom-3d-dice/textures/lizard.webp',
+		bump: '/marketplace/addons/loom-3d-dice/textures/lizard-bump.webp'
 	},
 	'bird': {
 		name: 'Bird',
 		composite: 'multiply',
-		source: '/marketplace/addons/dice-so-nice/textures/feather.webp',
-		bump: '/marketplace/addons/dice-so-nice/textures/feather-bump.webp'
+		source: '/marketplace/addons/loom-3d-dice/textures/feather.webp',
+		bump: '/marketplace/addons/loom-3d-dice/textures/feather-bump.webp'
 	},
 	'astral': {
 		name: 'DICESONICE.TextureAstralSea',
 		composite: 'multiply',
-		source: '/marketplace/addons/dice-so-nice/textures/astral.webp',
-		bump: '/marketplace/addons/dice-so-nice/textures/stars.webp'
+		source: '/marketplace/addons/loom-3d-dice/textures/astral.webp',
+		bump: '/marketplace/addons/loom-3d-dice/textures/stars.webp'
 	},
 	'wood': {
 		name: 'DICESONICE.TextureWood',
 		composite: 'multiply',
-		source: '/marketplace/addons/dice-so-nice/textures/wood.webp',
-		bump: '/marketplace/addons/dice-so-nice/textures/wood.webp',
+		source: '/marketplace/addons/loom-3d-dice/textures/wood.webp',
+		bump: '/marketplace/addons/loom-3d-dice/textures/wood.webp',
 		material: 'wood'
 	},
 	'metal': {
 		name: 'DICESONICE.TextureMetal',
 		composite: 'multiply',
-		source: '/marketplace/addons/dice-so-nice/textures/metal.webp',
+		source: '/marketplace/addons/loom-3d-dice/textures/metal.webp',
 		bump: '',
 		material: 'metal'
 	},
 	'radial': {
 		name: 'DICESONICE.TextureRadial',
 		composite: 'source-over',
-		source: '/marketplace/addons/dice-so-nice/textures/radial.webp',
+		source: '/marketplace/addons/loom-3d-dice/textures/radial.webp',
 		bump: '',
 	},
 	'bronze01': {
 		name: 'DICESONICE.TextureBronze1',
 		composite: 'difference',
-		source: '/marketplace/addons/dice-so-nice/textures/bronze01.webp',
+		source: '/marketplace/addons/loom-3d-dice/textures/bronze01.webp',
 		material: 'metal',
 		bump: ''
 	},
 	'bronze02': {
 		name: 'DICESONICE.TextureBronze2',
 		composite: 'difference',
-		source: '/marketplace/addons/dice-so-nice/textures/bronze02.webp',
+		source: '/marketplace/addons/loom-3d-dice/textures/bronze02.webp',
 		material: 'metal',
 		bump: ''
 	},
 	'bronze03': {
 		name: 'DICESONICE.TextureBronze3',
 		composite: 'difference',
-		source: '/marketplace/addons/dice-so-nice/textures/bronze03.webp',
+		source: '/marketplace/addons/loom-3d-dice/textures/bronze03.webp',
 		material: 'metal',
 		bump: ''
 	},
 	'bronze03a': {
 		name: 'DICESONICE.TextureBronze3a',
 		composite: 'difference',
-		source: '/marketplace/addons/dice-so-nice/textures/bronze03a.webp',
+		source: '/marketplace/addons/loom-3d-dice/textures/bronze03a.webp',
 		material: 'metal',
 		bump: ''
 	},
 	'bronze03b': {
 		name: 'DICESONICE.TextureBronze3b',
 		composite: 'difference',
-		source: '/marketplace/addons/dice-so-nice/textures/bronze03b.webp',
+		source: '/marketplace/addons/loom-3d-dice/textures/bronze03b.webp',
 		material: 'metal',
 		bump: ''
 	},
 	'bronze04': {
 		name: 'DICESONICE.TextureBronze4',
 		composite: 'difference',
-		source: '/marketplace/addons/dice-so-nice/textures/bronze04.webp',
+		source: '/marketplace/addons/loom-3d-dice/textures/bronze04.webp',
 		material: 'metal',
 		bump: ''
 	}

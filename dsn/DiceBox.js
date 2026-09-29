@@ -4,7 +4,7 @@ import { RGBELoader } from './libs/three-modules/RGBELoader.js';
 //import {GLTFExporter} from './libs/three-modules/GLTFExporter.js';
 import * as THREE from './libs/three.module.js';
 
-const DSN_AUDIO_BASE = '/marketplace/addons/dice-so-nice';
+const DSN_AUDIO_BASE = '/marketplace/addons/loom-3d-dice';
 function dsnPreloadSound(src) { try { const a = new Audio(src); a.preload = 'auto'; a.load(); return a; } catch { return null; } }
 function dsnPlaySound(src, volume=1) { try { const a = new Audio(src); a.volume = volume; a.play().catch(()=>{}); } catch {} }
 
@@ -158,7 +158,7 @@ export class DiceBox {
 		for (const [surface, numsounds] of surfaces) {
 			this.sounds_table[surface] = [];
 			for (let s=1; s <= numsounds; ++s) {
-				let path = `/marketplace/addons/dice-so-nice/sounds/${surface}/surface_${surface}${s}.wav`;
+				let path = `/marketplace/addons/loom-3d-dice/sounds/${surface}/surface_${surface}${s}.wav`;
 				dsnPreloadSound(path);
 				this.sounds_table[surface].push(path);
 			}
@@ -173,14 +173,14 @@ export class DiceBox {
 		for (const [material, numsounds] of materials) {
 			this.sounds_dice[material] = [];
 			for (let s=1; s <= numsounds; ++s) {
-				let path = `/marketplace/addons/dice-so-nice/sounds/dicehit/dicehit${s}_${material}.wav`;
+				let path = `/marketplace/addons/loom-3d-dice/sounds/dicehit/dicehit${s}_${material}.wav`;
 				dsnPreloadSound(path);
 				this.sounds_dice[material].push(path);
 			}
 		}
 
 		for (let i=1; i <= 6; ++i) {
-			let path = `/marketplace/addons/dice-so-nice/sounds/dicehit/coinhit${i}.wav`;
+			let path = `/marketplace/addons/loom-3d-dice/sounds/dicehit/coinhit${i}.wav`;
 			dsnPreloadSound(path);
 			this.sounds_coins.push(path);
 		}
@@ -273,16 +273,16 @@ export class DiceBox {
 			this.scopedTextureCache = {type:type};
 			if(this.dicefactory.bumpMapping){
 				let textureLoader = new THREE.TextureLoader();
-				this.scopedTextureCache.roughnessMap_fingerprint = textureLoader.load('/marketplace/addons/dice-so-nice/textures/roughnessMap_finger.webp');
-				this.scopedTextureCache.roughnessMap_wood = textureLoader.load('/marketplace/addons/dice-so-nice/textures/roughnessMap_wood.webp');
-				this.scopedTextureCache.roughnessMap_metal = textureLoader.load('/marketplace/addons/dice-so-nice/textures/roughnessMap_metal.webp');
+				this.scopedTextureCache.roughnessMap_fingerprint = textureLoader.load('/marketplace/addons/loom-3d-dice/textures/roughnessMap_finger.webp');
+				this.scopedTextureCache.roughnessMap_wood = textureLoader.load('/marketplace/addons/loom-3d-dice/textures/roughnessMap_wood.webp');
+				this.scopedTextureCache.roughnessMap_metal = textureLoader.load('/marketplace/addons/loom-3d-dice/textures/roughnessMap_metal.webp');
 
 				this.pmremGenerator = new THREE.PMREMGenerator(this.renderer);
 				this.pmremGenerator.compileEquirectangularShader();
 
 				new RGBELoader()
 				.setDataType( THREE.UnsignedByteType )
-				.setPath( '/marketplace/addons/dice-so-nice/textures/equirectangular/' )
+				.setPath( '/marketplace/addons/loom-3d-dice/textures/equirectangular/' )
 				.load('foyer.hdr', function ( texture ) {
 					this.scopedTextureCache.textureCube = this.pmremGenerator.fromEquirectangular(texture).texture;
 					this.scene.environment = this.scopedTextureCache.textureCube;
@@ -297,7 +297,7 @@ export class DiceBox {
 				}.bind(this));
 			} else {
 				let loader = new THREE.CubeTextureLoader();
-				loader.setPath('/marketplace/addons/dice-so-nice/textures/cubemap/');
+				loader.setPath('/marketplace/addons/loom-3d-dice/textures/cubemap/');
 
 				this.scopedTextureCache.textureCube = loader.load( [
 					'px.webp', 'nx.webp',
